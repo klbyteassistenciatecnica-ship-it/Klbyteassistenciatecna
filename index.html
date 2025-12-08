@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KLByte - Assistência Técnica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img src="images/klbyte-logo.png" alt="KLByte Logo" />
+        <div>
+          <h1>KLByte</h1>
+          <div class="subtitle">Assistência Técnica</div>
+        </div>
+      </div>
+
+      <nav>
+        <a class="btn" href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h2>Soluções rápidas e confiáveis para seu dispositivo</h2>
+          <p>Atendemos celulares, notebooks e computadores — diagnóstico preciso e reparo com garantia.</p>
+
+          <div class="cta">
+            <a href="#orcamento">Solicitar Orçamento</a>
+            <a href="#galeria" class="btn-sec">Ver Galeria</a>
+          </div>
+
+          <div class="services">
+            <div class="service card">
+              <h4>Reparo de Celulares</h4>
+              <p>Troca de tela, bateria e mais.</p>
+            </div>
+            <div class="service card">
+              <h4>Computadores & Notebooks</h4>
+              <p>Formatação, upgrades e limpeza.</p>
+            </div>
+            <div class="service card">
+              <h4>Atendimento Rápido</h4>
+              <p>Diagnóstico e serviço ágil.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>Fale conosco</h3>
+          <div class="contact-row">
+            <a href="tel:+550000000000">(00) 00000-0000</a>
+            <a href="mailto:contato@klbyte.com">contato@klbyte.com</a>
+            <div class="address">Rua Exemplo, 123 — Cidade</div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Galeria -->
+      <section id="galeria" class="gallery">
+        <div class="main card" id="mainImageWrap">
+          <img id="mainImage" src="images/foto1.jpg" alt="Imagem principal" />
+        </div>
+
+        <div class="thumbs" id="thumbs">
+          <div class="thumb active" data-src="images/foto1.jpg">
+            <img src="images/foto1.jpg" />
+          </div>
+          <div class="thumb" data-src="images/foto2.jpg">
+            <img src="images/foto2.jpg" />
+          </div>
+          <div class="thumb" data-src="images/foto3.jpg">
+            <img src="images/foto3.jpg" />
+          </div>
+          <div class="thumb" data-src="images/foto4.jpg">
+            <img src="images/foto4.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Formulário -->
+      <section id="orcamento" class="quote">
+        <div>
+          <h3>Pedir orçamento</h3>
+          <input id="nome" placeholder="Seu nome" />
+          <input id="telefone" placeholder="Telefone/WhatsApp" />
+        </div>
+
+        <div>
+          <textarea id="descricao" rows="4" placeholder="Descreva o problema"></textarea>
+          <button id="sendBtn">Enviar pedido</button>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="card">
+      © <span id="ano"></span> KLByte Assistência Técnica — Todos os direitos reservados.
+      <div class="info">Telefone: (00) 00000-0000 • Email: contato@klbyte.com</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
